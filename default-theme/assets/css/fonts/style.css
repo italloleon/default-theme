@@ -1,0 +1,55 @@
+/* Fonte Light */
+@font-face {
+    font-family: 'CircularSpotify';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(CircularSpotifyTxT-Light.woff) format('woff2'),
+         url(CircularSpotifyTxT-Light.woff) format('woff');
+  }
+
+
+/* Fonte Regular */
+@font-face {
+    font-family: 'CircularSpotify';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(CircularSpotifyTxT-Book.woff) format('woff2'),
+         url(CircularSpotifyTxT-Book.woff) format('woff');
+  }
+ 
+  /* Fonte Medium */
+
+  @font-face {
+    font-family: 'CircularSpotify';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(CircularSpotifyTxT-Med.woff2) format('woff2'),
+         url(CircularSpotifyTxT-Med.woff) format('woff');
+  }
+
+   
+  /* Fonte Bold */
+
+  @font-face {
+    font-family: 'CircularSpotify';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(CircularSpotifyTxT-Bold.woff2) format('woff2'),
+         url(CircularSpotifyTxT-Bold.woff) format('woff');
+  }
+
+  
+  /* Fonte Black */
+
+  @font-face {
+    font-family: 'CircularSpotify';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(CircularSpotifyTxT-Black.woff2) format('woff2'),
+         url(CircularSpotifyTxT-Black.woff) format('woff');
+  }

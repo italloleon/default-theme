@@ -1,0 +1,203 @@
+
+
+
+
+html, body{
+    scroll-behavior: smooth;
+    margin: 0 !important;
+}
+html{
+    margin-top: 0 !important;
+}
+body{
+    background-color: black;
+}
+.wpcf7-response-output, .wpcf7-not-valid-tip{
+    display: none !important;
+}
+h1,h2,h3,h4,h5,h6,p{
+font-family: 'CircularSpotify';
+}
+.fonte-site{
+font-family: 'CircularSpotify';
+}
+a, a:hover, a:focus, a:active{
+    text-decoration: none;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    #navegacao-principal{
+        background: #000000E6 0% 0% no-repeat padding-box;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 27px 0;
+        z-index: 100;
+        box-shadow: 0 0 10px rgba(255, 215, 215, .1);
+
+    }
+    #navegacao-principal .link-logo{
+        display: inline-block;
+    }
+    #navegacao-principal .link-logo figure{
+        margin: 0;
+    }
+    #navegacao-principal .link-logo figure img{
+        height: 33px;
+    }
+    #navegacao-principal .lista-menu{
+        display: flex;
+        height: 33px;
+        align-items: center;
+        padding: 0;
+        list-style-type: none;
+        margin: 0;
+    }
+    #navegacao-principal .lista-menu li{
+        margin-left: 30px;
+    }
+    
+    #navegacao-principal .lista-menu li a{
+        
+        color: white;
+        transition: all .3s;
+    }
+    #navegacao-principal .lista-menu li a:hover{
+        color: #FF0000;
+        transition: all .3s;
+    }
+
+
+    #banner-inicial{
+        height: 100vh;
+        background-color: #121212;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all .3s;
+    }
+    #banner-inicial .container-banner-inicial, .row-banner-inicial, .coluna-descricao-banner-inicial{
+        height: 100%;
+    }
+    #banner-inicial .tag-taxonomia{
+        border: solid 1px white;
+        background-color: white;
+        color: black;
+        padding: 5px 20px;
+        border-radius: 2px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 0;
+    }
+    #banner-inicial .tag-minutos-video{
+        border: solid 1px white;
+        margin-left: 15px;
+        color: white;
+        padding: 5px 20px;
+        border-radius: 2px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 0;
+        text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+
+    #banner-inicial .titulo-banner{
+        color: white;
+        font-weight: 900;
+        font-size: 60px;
+        margin: 15px 0;
+        text-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    }
+    #banner-inicial .botao-mais-informacoes{
+        background-color: red;
+        color: white;
+        padding: 15px 50px;
+        font-size: 15px;
+        font-weight: 300;
+        display: inline;
+    }
+
+
+    #banner-inicial .titulos-nao-encontrados{
+        color: white;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    #banner-inicial .link-admin-add-video{
+        color: white;
+        font-weight: 900;
+        display: block;
+        font-size: 22px;
+        text-decoration: underline;
+    }
+    #banner-inicial .link-admin-add-video:hover{
+        color: #FF0000;
+    }
+    .sessao-taxonomia{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .sessao-taxonomia .titulo-sessao-taxonomia{
+        font-weight: 900;
+        font-size: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+        color: red;
+    }
+    .sessao-taxonomia .abriga-video{
+        padding: 10px;
+        display: inline-block;
+    }
+    .sessao-taxonomia .abriga-video:first-child{
+        padding-left: 0;
+    }
+    .sessao-taxonomia .imagem-exposicao{
+        height: 210px;
+        width: 150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0 !important;
+    }
+    .sessao-taxonomia .tag-taxonomia{
+        border: solid 1px white;
+        color: white;
+        display: inline-flex;
+        margin-top: 20px;
+        padding: 5px 25px;
+        border-radius: 2px;
+        font-weight: 400;
+        font-size: 10px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .sessao-taxonomia .slick-track{
+        margin-left: 0 !important;
+    }
+
+}

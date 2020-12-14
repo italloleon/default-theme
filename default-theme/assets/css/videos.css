@@ -1,0 +1,94 @@
+
+
+
+
+html, body{
+    scroll-behavior: smooth;
+    margin: 0 !important;
+}
+html{
+    margin-top: 0 !important;
+}
+body{
+    background-color: black;
+}
+.wpcf7-response-output, .wpcf7-not-valid-tip{
+    display: none !important;
+}
+h1,h2,h3,h4,h5,h6,p{
+font-family: 'CircularSpotify';
+}
+.fonte-site{
+font-family: 'CircularSpotify';
+}
+a, a:hover, a:focus, a:active{
+    text-decoration: none;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #abriga-info-video{
+        padding-top: 150px;
+
+    }
+    #abriga-info-video iframe{
+        width: 100%;
+        height: 600px;
+    }
+    #abriga-info-video h1{
+        font-weight: 900;
+        font-size: 40px;
+        color: white;
+    }
+    #abriga-info-video .tag-taxonomia{
+        border: solid 1px white;
+        background-color: white;
+        color: black;
+        padding: 5px 20px;
+        border-radius: 2px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 0;
+    }
+    #abriga-info-video .tag-minutos-video{
+        border: solid 1px white;
+        margin-left: 15px;
+        color: white;
+        padding: 5px 20px;
+        border-radius: 2px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 0;
+        text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+
+    .conteudo-sinopse *{
+        color: white;
+        font-weight: 300;
+    }
+
+}
